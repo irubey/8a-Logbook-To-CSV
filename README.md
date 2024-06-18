@@ -1,6 +1,6 @@
-# Logbook-To-CSV
+# Logbook-To-CSV - Transform your athlete's 8a logbook into a spreadsheet:
 <div align='center'>
-Transform your athlete's 8a logbook into a spreadsheet: </br>
+ </br>
         date</br>
         name</br>
         location</br>
