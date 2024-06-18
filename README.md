@@ -11,7 +11,7 @@ Output CSV contains info on each entry's </br>
 
 ---
         
-#8a.nu Logbook Instructions - easy as 1 2 3
+# 8a.nu Logbook Instructions - easy as 1 2 3
 
 1. Prepare 8a.nu athlete Logbook</br>
         -Sort By Date</br>
