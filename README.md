@@ -13,7 +13,7 @@
         
 ---
         
-# 8a.nu Logbook Instructions - easy as 1 2 3
+☑️Instructions - easy as 1 2 3
 
 1. Prepare 8a.nu athlete Logbook</br>
         -Sort By Date</br>
