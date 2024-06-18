@@ -1,6 +1,6 @@
 import fs from "fs/promises"
 
-//Change input and output file names to whatever you would like
+//Change input and output file names as desired
 const input = "input.txt"
 const output = "output.csv"
 
