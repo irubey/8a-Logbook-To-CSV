@@ -1,4 +1,5 @@
 # Logbook-To-CSV
+<div align='center'>
 A tool to transform a 8anu athlete logbook into a spreadsheet document
 </br>
 Output CSV contains info on each entry's </br> 
@@ -8,6 +9,7 @@ Output CSV contains info on each entry's </br>
         grade</br>
         notes</br>
         tags</br>
+</div>
 
 ---
         
