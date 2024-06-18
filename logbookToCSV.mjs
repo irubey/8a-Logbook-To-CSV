@@ -1,5 +1,6 @@
 import fs from "fs/promises"
 
+//Change input and output file names to whatever you would like
 const input = "input.txt"
 const output = "output.csv"
 
@@ -15,7 +16,6 @@ function cleanRawString(string) {
 
   if (!(dateMatches.length > 0)) return
 
-  // remove unneeded text
   const firstMatch = dateMatches[0]
   const lastMatch = dateMatches[dateMatches.length - 1]
 
@@ -30,16 +30,16 @@ function cleanRawString(string) {
 
   dateMatches.forEach((match) => {
     const date = match[0]
-    const index = match.index - offset // Adjust index
+    const index = match.index - offset 
     if (!uniqueDatesMap.has(date)) {
       uniqueDatesMap.set(date, index)
     }
   })
 
-  // Convert the Map to an array for processing
+
   const uniqueDatesArray = Array.from(uniqueDatesMap.entries())
 
-  // Create a Map to store the string content between unique dates
+ 
   const contentMap = new Map()
 
   for (let i = 0; i < uniqueDatesArray.length; i++) {
@@ -56,7 +56,7 @@ function cleanRawString(string) {
     contentMap.set(currentDate, cleanedContent)
   }
 
-  //create entries array
+
 
   let entries = []
 
@@ -106,10 +106,10 @@ function convertToCSV(data) {
   const headers = Object.keys(data[0])
   const csvRows = []
 
-  // Add headers
+ 
   csvRows.push(headers.join(","))
 
-  // Add rows
+  
   for (const row of data) {
     const values = headers.map((header) => {
       const val = row[header]
@@ -128,7 +128,6 @@ async function readAndProcessFile() {
 
     const csv = convertToCSV(cleanedData)
 
-    // Write to CSV file
     await fs.writeFile(output, csv, { encoding: "utf8" })
     console.log(`CSV file saved as ${output}`)
   } catch (error) {
