@@ -2,12 +2,13 @@
 📊 Transform your athlete's 8a logbook into a spreadsheet
 
  </br>
-        date</br>
-        name</br>
-        location</br>
-        grade</br>
-        notes</br>
-        tags</br>
+ Athlete Logbook Spreadsheet Contains:
+        Date of record</br>
+        Name of route</br>
+        Location of route</br>
+        Grade</br>
+        Athlete Notes</br>
+        Athlete Tags</br>
         
 ---
         
