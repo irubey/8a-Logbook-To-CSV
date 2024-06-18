@@ -20,7 +20,7 @@
         -Apply Desired Filters - All Time</br>
 -Load All Entries - button near bottom of page</br>
 -Scroll Down until all entries are loaded</br>
--(optional) expand all tags </br>
+-(optional) expand all tags
         (...) icons</br>
 -Select all text (ctl + a)</br>
 -Copy text (ctl + c)</br>
