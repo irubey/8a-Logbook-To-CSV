@@ -1,6 +1,6 @@
 import fs from "fs/promises"
 
-const input = "stevenDimmit.txt"
+const input = "input.txt"
 const output = "output.csv"
 
 function cleanRawString(string) {
