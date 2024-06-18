@@ -13,8 +13,8 @@ Output CSV contains info on each entry's
 #8a.nu Logbook Instructions - easy as 1 2 3
 
 1. Prepare 8a.nu athlete Logbook
--Sort By Date
--Apply Desired Filters - All Time
+        -Sort By Date
+        -Apply Desired Filters - All Time
 -Load All Entries - button near bottom of page
 -Scroll Down until all entries are loaded
 -(optional) expand all tags 
