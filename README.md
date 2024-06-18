@@ -8,6 +8,7 @@
         grade</br>
         notes</br>
         tags</br>
+        
 ---
         
 # 8a.nu Logbook Instructions - easy as 1 2 3
