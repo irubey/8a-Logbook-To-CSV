@@ -1,4 +1,4 @@
-# Logbook-To-CSV: </br>
+# Logbook-To-CSV </br>
 Transform your athlete's 8a logbook into a spreadsheet:
 <div align='center'>
  </br>
