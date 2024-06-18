@@ -3,6 +3,9 @@
 
  </br>
  Athlete Logbook Spreadsheet Contains:
+ </br>
+ - Date of record
+ - Name of Route
         Date of record</br>
         Name of route</br>
         Location of route</br>
